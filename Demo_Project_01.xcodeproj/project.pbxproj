@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,6 +53,8 @@
 		6B3601A4269DD1580028DEC2 /* Demo_Project_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_Project_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3601A8269DD1580028DEC2 /* Demo_Project_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Project_01UITests.swift; sourceTree = "<group>"; };
 		6B3601AA269DD1580028DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3601B6269DD3C70028DEC2 /* Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Observer.playground; path = Demo_Project_01/Observer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B3601B7269DD3C70028DEC2 /* Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Subject.playground; path = Demo_Project_01/Subject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7BA75A75875F3B71543DA7F6 /* Pods-Demo_Project_01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Project_01Tests.release.xcconfig"; path = "Target Support Files/Pods-Demo_Project_01Tests/Pods-Demo_Project_01Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8ACE412F4C0CA7327B021AC8 /* Pods_Demo_Project_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Project_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B047EA778B9AE7AA91A383E6 /* Pods-Demo_Project_01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Project_01Tests.debug.xcconfig"; path = "Target Support Files/Pods-Demo_Project_01Tests/Pods-Demo_Project_01Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,13 +113,14 @@
 				E115866C963332313B7F49C5 /* Pods-Demo_Project_01UITests.debug.xcconfig */,
 				D3184F0E6834B9A2303AEB16 /* Pods-Demo_Project_01UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6B36017A269DD1560028DEC2 = {
 			isa = PBXGroup;
 			children = (
+				6B3601B6269DD3C70028DEC2 /* Observer.playground */,
+				6B3601B7269DD3C70028DEC2 /* Subject.playground */,
 				6B360185269DD1560028DEC2 /* Demo_Project_01 */,
 				6B36019C269DD1580028DEC2 /* Demo_Project_01Tests */,
 				6B3601A7269DD1580028DEC2 /* Demo_Project_01UITests */,
